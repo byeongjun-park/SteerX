@@ -1,0 +1,90 @@
+---
+pagination: 
+  enabled: true
+---
+
+
+{% include header.html %}
+
+    <main id="portfolio">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="hero-container">
+                    <div class="hero-content">
+                        <div class="row text-left">
+                            <div class="col-sm-12">
+                                <h2>🔥Interactive results of SteerX🔥</h2>
+                                <!-- <p>Generating more results for fun here. Check <a href="./test_0.html">this page</a> for the comparison over 40 test prompts in our experiments.</p> -->
+                            </div>
+                        </div>
+                    
+                        <div style="font-size: 20px; text-align: center; padding: 1em">
+                            <a href="index.html">Home</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="gallery_0.html">Text-to-4D</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="gallery_1.html">Image-to-4D</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="gallery_2.html">Text-to-3D</a>
+                            &nbsp;&bull;&nbsp;
+                            <strong>Image-to-3D</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap">
+                    <div class="row post-row">
+                        <div class="container">
+                            <div class="content">
+                                <div id="wrapper" style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 20px; text-align: center;">
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/hawaii.html')">
+                                        <img src="files/image-to-3d/hawaii.jpg" alt="Hawaii 3D Model" style="width: 300px; height: 300px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/hawaii.html')">
+                                        <img src="files/image-to-3d/hawaii.jpg" alt="Hawaii 3D Model" style="width: 300px; height: 300px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/hawaii.html')">
+                                        <img src="files/image-to-3d/hawaii.jpg" alt="Hawaii 3D Model" style="width: 300px; height: 300px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                </div>
+
+                                <div id="wrapper" style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 20px; text-align: center;">
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/hawaii.html')">
+                                        <img src="files/image-to-3d/hawaii.jpg" alt="Hawaii 3D Model" style="width: 300px; height: 300px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/hawaii.html')">
+                                        <img src="files/image-to-3d/hawaii.jpg" alt="Hawaii 3D Model" style="width: 300px; height: 300px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/hawaii.html')">
+                                        <img src="files/image-to-3d/hawaii.jpg" alt="Hawaii 3D Model" style="width: 300px; height: 300px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                </div>
+
+                                <div id="wrapper" style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 20px; text-align: center;">
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/hawaii.html')">
+                                        <img src="files/image-to-3d/hawaii.jpg" alt="Hawaii 3D Model" style="width: 300px; height: 300px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/hawaii.html')">
+                                        <img src="files/image-to-3d/hawaii.jpg" alt="Hawaii 3D Model" style="width: 300px; height: 300px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/hawaii.html')">
+                                        <img src="files/image-to-3d/hawaii.jpg" alt="Hawaii 3D Model" style="width: 300px; height: 300px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script>
+        function showIframe(container, iframeSrc) {
+            if (!container.querySelector("iframe")) {
+                container.innerHTML = `<iframe src="${iframeSrc}" style="width: 300px; height: 300px; cursor: pointer;"></iframe>`;
+            }
+        }
+    </script>
+
+{% include footer.html %}
