@@ -2,8 +2,8 @@
 
 <!-- Arxiv Link, Project Link -->
 
-<a href="https://arxiv.org/abs/2403.09176"><img src="https://img.shields.io/badge/arXiv-2403.09176-b31b1b.svg"></a>
-<a href="https://byeongjun-park.github.io/Switch-DiT/"><img src="https://img.shields.io/badge/Project%20Page-online-brightgreen"></a>
+<!-- <a href="https://arxiv.org/abs/2403.09176"><img src="https://img.shields.io/badge/arXiv-2403.09176-b31b1b.svg"></a> -->
+<a href="https://byeongjun-park.github.io/SteerX/"><img src="https://img.shields.io/badge/Project%20Page-online-brightgreen"></a>
 
 This repository contains official code implementation of "SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering". We provide Diffusers-based demo for simple testing. Please note that the results may differ from those reported in the paper.
 

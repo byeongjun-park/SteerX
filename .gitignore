@@ -1,0 +1,15 @@
+.vscode
+.cache
+.idea
+*.mp4
+*.ply
+*.glb
+*.pth
+*.pt
+__pycache__
+samples
+steerx_ckpt
+steerx_diffusers/geometry_steering/croco/models/curope/build
+steerx_diffusers/geometry_steering/monst3r/third_party/sam2/build
+*.egg-info
+*.so
