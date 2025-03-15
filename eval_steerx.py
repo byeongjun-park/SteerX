@@ -120,7 +120,7 @@ elif args.model == 'cog':  # test VBench
             height=768,
             width=768,
             num_inference_steps=50,
-            num_frames=25,
+            num_frames=49,
             generator=torch.Generator(device="cuda").manual_seed(42),
             use_dynamic_cfg=True
         )
@@ -146,7 +146,7 @@ else:  # test penguin
             num_steering=2,
             height=480,
             width=480,
-            num_frames=25,
+            num_frames=49,
             num_inference_steps=50,
             generator=torch.Generator(device="cuda").manual_seed(42)
         )

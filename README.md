@@ -9,6 +9,10 @@ This repository contains official code implementation of "SteerX: Creating Any C
 
 <img src="assets/teaser.png" width="100%" alt="SteerX">
 
+## Todo
+- [x] Project Pages
+- [ ] Paper link and Bib
+
 ## Setup
 1. Conda setup - CUDA 12.1 with A100 80GB GPU
    ```bash
