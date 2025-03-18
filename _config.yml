@@ -18,6 +18,7 @@ email: 'pbj3810@kaist.ac.kr'
 description: "Byeongjun Park<sup>1,2</sup>*,&nbsp;&nbsp;Hyojun Go<sup>2</sup>*,&nbsp;&nbsp;Hyelin Nam<sup>2</sup>,&nbsp;&nbsp;Byung-Hoon Kim<sup>2,3</sup>,&nbsp;&nbsp;Hyungjin Chung<sup>2&#8224</sup>,&nbsp;&nbsp;&nbsp;Changick Kim<sup>1&#8224</sup><br/><br/><sup>1</sup>KAIST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>2</sup>EverEx&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>3</sup>Yonsei University"
 baseurl: "/SteerX" # the subpath of your site, e.g. /blog
 url: "https://byeongjun-park.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+paper: 'https://arxiv.org/abs/2503.12024'
 github_username: 'https://github.com/byeongjun-park/SteerX'
 
 # Build settings
