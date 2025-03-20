@@ -2,16 +2,13 @@
 
 <!-- Arxiv Link, Project Link -->
 
-<!-- <a href="https://arxiv.org/abs/2403.09176"><img src="https://img.shields.io/badge/arXiv-2403.09176-b31b1b.svg"></a> -->
+<a href="https://arxiv.org/abs/2503.12024"><img src="https://img.shields.io/badge/arXiv-2503.12024-b31b1b.svg"></a>
 <a href="https://byeongjun-park.github.io/SteerX/"><img src="https://img.shields.io/badge/Project%20Page-online-brightgreen"></a>
 
-This repository contains official code implementation of "SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering". We provide Diffusers-based demo for simple testing. Please note that the results may differ from those reported in the paper.
+This repository contains official code implementation of "SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering". We provide Diffusers-based demo for simple testing. The results may differ from those reported in the paper.
 
 <img src="assets/teaser.png" width="100%" alt="SteerX">
 
-## Todo
-- [x] Project Pages
-- [ ] Paper link and Bib
 
 ## Setup
 1. Conda setup - CUDA 12.1 with A100 80GB GPU
@@ -43,7 +40,7 @@ cd ../../../../../
 - DimensionX: 49, 720 x 480
 - SplatFlow: 8, 256 x 256
 
-## Run code (`--img_path` is required for image-to-3D/4D)
+## Run code (`--img_path` is only required for image-to-3D/4D)
 
 ```bash
 python eval_steerx.py --model {generative model name} --num_particles {num_particles}
@@ -61,7 +58,7 @@ python viser/visualizer_monst3r.py --data {your data path}
 ```
 
 ## Acknowledgments
-We thanks for wonderful works to build this repo. 
+Thanks for wonderful works to build this repo. 
 - Video generative models in [Mochi](https://github.com/genmoai/mochi), [HunyuanVideo](https://github.com/Tencent/HunyuanVideo), [CogVideoX](https://github.com/THUDM/CogVideo), [DimensionX](https://github.com/wenqsun/DimensionX), and [SplatFlow](https://github.com/gohyojun15/SplatFlow)
 - Scene reconstruction models in [MV-DUSt3R+](https://github.com/facebookresearch/mvdust3r), [MonST3R](https://github.com/Junyi42/monst3r), and [SplatFlow](https://github.com/gohyojun15/SplatFlow). 
 - Reward functions are based on [MEt3R](https://github.com/mohammadasim98/met3r)
@@ -69,4 +66,11 @@ We thanks for wonderful works to build this repo.
 
 ## Citation
 If you find this repository helpful for your project, please consider citing our work. :)
+```
+@article{park2025steerx,
+  title={SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering},
+  author={Park, Byeongjun and Go, Hyojun and Nam, Hyelin and Kim, Byung-Hoon and Chung, Hyungjin and Kim, Changick},
+  journal={arXiv preprint arXiv:2503.12024},
+  year={2025}
+}
 ```
